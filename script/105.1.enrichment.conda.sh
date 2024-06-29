@@ -34,8 +34,4 @@ install.packages ("ggridges")
 
 '
 ################################################################################
-##### run
-# conda activate enrichment 
-# cd /share/home/shh/HCC_snRNA-seq/34.enrichment/result
-# nohup Rscript /share/home/shh/HCC_snRNA-seq/script/33.2.enrichment.run.R > enrichment.log 2>&1 &
- 
+##### 
