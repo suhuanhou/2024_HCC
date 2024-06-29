@@ -1,0 +1,101 @@
+R version 4.0.4 (2021-02-15)
+Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: CentOS Linux 7 (Core)
+
+Matrix products: default
+BLAS:   /sdc1/R/R-4.0.4/lib64/R/lib/libRblas.so
+LAPACK: /share/home/shh/miniconda3/envs/scVelo/lib/libmkl_rt.so.2
+
+locale:
+ [1] LC_CTYPE=en_US.UTF-8      
+ [2] LC_NUMERIC=C              
+ [3] LC_TIME=en_US.UTF-8       
+ [4] LC_COLLATE=en_US.UTF-8    
+ [5] LC_MONETARY=en_US.UTF-8   
+ [6] LC_MESSAGES=en_US.UTF-8   
+ [7] LC_PAPER=en_US.UTF-8      
+ [8] LC_NAME=C                 
+ [9] LC_ADDRESS=C              
+[10] LC_TELEPHONE=C            
+[11] LC_MEASUREMENT=en_US.UTF-8
+[12] LC_IDENTIFICATION=C       
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets 
+[6] methods   base     
+
+other attached packages:
+ [1] reticulate_1.18    AnnoProbe_0.1.0   
+ [3] forcats_0.5.1      dplyr_1.0.7       
+ [5] purrr_0.3.4        readr_2.0.1       
+ [7] tidyr_1.1.3        tibble_3.1.4      
+ [9] tidyverse_1.3.1    ggplot2_3.4.4     
+[11] SeuratObject_4.0.2 Seurat_4.0.5.9000 
+[13] fs_1.5.0           stringr_1.4.0     
+[15] pheatmap_1.0.12    openxlsx_4.2.3    
+
+loaded via a namespace (and not attached):
+  [1] readxl_1.3.1          backports_1.2.1      
+  [3] plyr_1.8.6            igraph_1.2.11        
+  [5] lazyeval_0.2.2        splines_4.0.4        
+  [7] listenv_0.8.0         scattermore_0.7      
+  [9] digest_0.6.27         htmltools_0.5.2      
+ [11] fansi_0.5.0           magrittr_2.0.3       
+ [13] tensor_1.5            cluster_2.1.1        
+ [15] ROCR_1.0-11           tzdb_0.1.2           
+ [17] limma_3.46.0          globals_0.14.0       
+ [19] modelr_0.1.8          matrixStats_0.58.0   
+ [21] spatstat.sparse_3.0-3 colorspace_2.0-2     
+ [23] rappdirs_0.3.3        rvest_1.0.1          
+ [25] ggrepel_0.9.1         haven_2.4.3          
+ [27] xfun_0.26             crayon_1.4.1         
+ [29] jsonlite_1.8.4        spatstat.data_3.0-4  
+ [31] GEOquery_2.58.0       survival_3.2-7       
+ [33] zoo_1.8-9             glue_1.6.0           
+ [35] polyclip_1.10-0       gtable_0.3.0         
+ [37] leiden_0.3.7          car_3.0-10           
+ [39] future.apply_1.7.0    BiocGenerics_0.36.0  
+ [41] abind_1.4-5           scales_1.3.0         
+ [43] DBI_1.1.1             rstatix_0.7.0        
+ [45] miniUI_0.1.1.1        Rcpp_1.0.7           
+ [47] viridisLite_0.4.2     xtable_1.8-4         
+ [49] spatstat.core_1.65-5  foreign_0.8-81       
+ [51] DT_0.17               htmlwidgets_1.5.3    
+ [53] httr_1.4.2            RColorBrewer_1.1-2   
+ [55] ellipsis_0.3.2        ica_1.0-2            
+ [57] pkgconfig_2.0.3       farver_2.1.0         
+ [59] uwot_0.1.14           dbplyr_2.1.1         
+ [61] deldir_1.0-6          utf8_1.2.2           
+ [63] tidyselect_1.1.1      rlang_1.1.3          
+ [65] reshape2_1.4.4        later_1.1.0.1        
+ [67] munsell_0.5.0         cellranger_1.1.0     
+ [69] tools_4.0.4           cli_3.6.0            
+ [71] generics_0.1.0        broom_0.7.9          
+ [73] ggridges_0.5.3        fastmap_1.1.0        
+ [75] goftest_1.2-2         fitdistrplus_1.1-3   
+ [77] zip_2.1.1             RANN_2.6.1           
+ [79] pbapply_1.4-3         future_1.21.0        
+ [81] nlme_3.1-152          mime_0.11            
+ [83] xml2_1.3.2            compiler_4.0.4       
+ [85] rstudioapi_0.13       curl_4.3.2           
+ [87] plotly_4.9.3          png_0.1-7            
+ [89] ggsignif_0.6.3        spatstat.utils_3.0-4 
+ [91] reprex_2.0.1          stringi_1.7.4        
+ [93] lattice_0.20-41       Matrix_1.3-4         
+ [95] vctrs_0.6.5           pillar_1.6.2         
+ [97] lifecycle_1.0.4       spatstat.geom_3.2-9  
+ [99] lmtest_0.9-38         RcppAnnoy_0.0.18     
+[101] data.table_1.14.0     cowplot_1.1.1        
+[103] irlba_2.3.3           httpuv_1.5.5         
+[105] patchwork_1.1.1       R6_2.5.1             
+[107] promises_1.2.0.1      rio_0.5.26           
+[109] KernSmooth_2.23-18    gridExtra_2.3        
+[111] parallelly_1.24.0     codetools_0.2-18     
+[113] MASS_7.3-53.1         assertthat_0.2.1     
+[115] withr_3.0.0           sctransform_0.3.2    
+[117] mgcv_1.8-34           parallel_4.0.4       
+[119] hms_1.1.0             grid_4.0.4           
+[121] rpart_4.1-15          carData_3.0-4        
+[123] Rtsne_0.15            ggpubr_0.4.0         
+[125] Biobase_2.50.0        shiny_1.6.0          
+[127] lubridate_1.7.10      tinytex_0.33         
