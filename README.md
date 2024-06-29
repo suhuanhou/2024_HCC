@@ -4,7 +4,7 @@ The repository contains the code utilized in our manuscript. To protect patient 
 ### (Our manuscript is still under revision, and the serial numbers of all papers will be organized uniformly before publication.)
 ## File list
 **Serial numbers 1-100**: mainly for **snRNA-seq** data analysis.   
-**Serial number 101-00**: mainly for **bulk RNA-seq** data analysis.
+**Serial number 101-200**: mainly for **bulk RNA-seq** data analysis.
 
 The versions of R, python and related packages relied on for the analysis can be viewed in session.txt in the dataset directory.
   
