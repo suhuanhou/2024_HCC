@@ -10,15 +10,17 @@ The versions of R, python and related packages relied on for the analysis can be
   
   
 ---
-## Background and Aims:
-Hepatocellular carcinoma is a malignant tumor characterized by multi-gene dysregulation and significant heterogeneity, posing challenges to its diagnosis and treatment research. Therefore, precise characterization of the oncogenic mechanisms in HCC is urgently needed in clinical practice.
+## Background:
+Despite numerous immunology-focused single-cell transcriptomic studies elucidating the tumor microenvironment in hepatocellular carcinoma (HCC), the oncogenic landscape of hepatocytes remains poorly understood.
 
-## Approach and Results:
-To comprehensively understand the carcinogenic landscape of HCC, we collected samples from 55 HCC patients (SMU cohort) and identified highly malignant hepatocyte subtypes and their molecular characteristics through single nucleus RNA sequencing (snRNA-seq, samples=44) and bulk RNA sequencing (bulk RNA-seq, samples =165). Utilizing snRNA-seq data of hepatocyte subtypes, we deconvoluted the cellular composition in the TCGA and Fudan cohorts, uncovering distinct beneficial/detrimental hepatocyte subtypes correlated with patient prognosis. We developed a quantile-based scoring method to integrate 29 human HCC datasets, comprising a total of 4,192 samples. We constructed a universal diagnostic model, termed the Quantile-Distribution Model (QDM), which demonstrated exceptional diagnostic performance across the 4,192 samples (AUC=0.982 for internal datasets, AUC=0.968 for external datasets).
+## Methods:
+We performed single-nucleus RNA sequencing on 44 samples from 22 HCC patients to identify hepatocyte subtypes. Integration of these subtypes with bulk RNA sequencing data from 165 samples across 55 patients allowed us to identify key genes, pathways, and transcription factors associated with HCC. We decomposed the cellular composition in the TCGA and Fudan HCC cohorts to assess the impact of hepatocyte subtypes on patient prognosis. Additionally, we developed a quantile-based scoring method to integrate 29 public human HCC datasets comprising 4192 samples and constructed a Quantile Distribution Model (QDM) for HCC diagnosis.
+
+## Results:
+We identified 10 hepatocyte subtypes, including Hep0 (beneficial), Hep2 (predominantly malignant), and Hep9 (immunosuppressive). The QDM demonstrated exceptional diagnostic performance with an AUC of 0.982 for training datasets and 0.968 for validation datasets. Classification of HCC into metabolic, inflammatory, and matrix classes revealed distinct clinical characteristics and identified sensitive drugs.
 
 ## Conclusions:
-In conclusion, our research utilizes snRNA-seq and bulk RNA-seq data to comprehensively delineate the oncogenic landscape and molecular mechanisms of hepatocytes in HCC. This study has established the largest single-cell resource for hepatocytes in HCC to date, providing a unique framework for future hepatocarcinogenesis research. The HCC diagnostic model we developed is characterized by its simplicity, broad applicability, and high accuracy, setting a paradigm for other cancer research endeavors. Our findings offer valuable insights and effective strategies for the clinical diagnosis and therapeutic management of HCC.
-
+Our study provides a comprehensive delineation of the oncogenic landscape and molecular mechanisms of hepatocytes in HCC, establishing the largest single-cell resource for hepatocytes to date and offering an extensive framework for future research on hepatocarcinogenesis. Our findings deliver valuable insights and effective strategies for the clinical diagnosis and therapeutic management of HCC.
 
 ---
 ## 
