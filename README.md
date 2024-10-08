@@ -9,7 +9,7 @@ The repository contains the code utilized in our manuscript. To protect patient 
 The versions of R, python and related packages relied on for the analysis can be viewed in session.txt in the dataset directory.
   
 
-![image](https://github.com/suhuanhou/2024_HCC/blob/main/Article/HCC_Fig.0.jpg)
+![Graphical Abstract](https://github.com/suhuanhou/2024_HCC/blob/main/Article/HCC_Fig.0.jpg)
 ---
 ## Background:
 Despite numerous immunology-focused single-cell transcriptomic studies elucidating the tumor microenvironment in hepatocellular carcinoma (HCC), the oncogenic landscape of hepatocytes remains poorly understood.
