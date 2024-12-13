@@ -117,8 +117,7 @@ if(T){
   my_comparisons = list(c("Hep9-Low", "Hep9-High"))
   
   p <- ggboxplot(df_tmp, x = "group", y = "feature", fill = "group", 
-                 # ylab = "Clinical Detection Value", xlab = paste0('', subtype, " in ", tissue, " Tissue")) +
-                 ylab = "Clinical Detection Value", xlab = paste0('')) +
+                 ylab = "Log10(AFP) (ug/L)", xlab = paste0('')) +
     stat_compare_means(comparisons = my_comparisons, method = "wilcox.test") +
     # stat_boxplot(geom = "errorbar", width = 0.5)+
     geom_point(position = position_jitter(width = 0.2), color = "black", alpha = 0.5, size = 2, show.legend = FALSE) +
