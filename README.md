@@ -17,5 +17,5 @@ Hepatocellular carcinoma (HCC) is a major cause of cancer-related mortality, whi
 
 ---
 ## Reference
-Huanhou Su, Xuewen Zhou, Guanchuan Lin, Chaochao Luo, Wei Meng, Cui Lv, Yuting Chen, Zebin Wen, Xu Li, Yongzhang Wu, Changtai Xiao, Jian Yang, Jiameng Lu, Xingguang Luo, Yan Chen, Paul KH Tam, Chuanjiang Li, Haitao Sun, Xinghua Pan. Deciphering the Oncogenic Landscape of Hepatocytes through Integrated Single-Nucleus and Bulk RNA-Seq of Hepatocellular Carcinoma. Advanced Scienc. 2025. DOI: [10.1002/advs.202412944]
+Huanhou Su, Xuewen Zhou, Guanchuan Lin, Chaochao Luo, Wei Meng, Cui Lv, Yuting Chen, Zebin Wen, Xu Li, Yongzhang Wu, Changtai Xiao, Jian Yang, Jiameng Lu, Xingguang Luo, Yan Chen, Paul KH Tam, Chuanjiang Li, Haitao Sun, Xinghua Pan. Deciphering the Oncogenic Landscape of Hepatocytes through Integrated Single-Nucleus and Bulk RNA-Seq of Hepatocellular Carcinoma. ***Advanced Science***. 2025. DOI: [10.1002/advs.202412944]
 
